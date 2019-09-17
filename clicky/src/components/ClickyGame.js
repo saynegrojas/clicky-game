@@ -4,7 +4,7 @@ import Container from './Container';
 import Footer from './Footer';
 import Banner from './Banner';
 import images from '../images';
-import Winner from './Winner';
+// import Winner from './Winner';
 
 class ClickyGame extends Component {
     state = {
@@ -18,6 +18,7 @@ class ClickyGame extends Component {
         navMessage: 'Click an image to begin!',
 
         // Contains an array of image urls
+
         allCharacters: this.shuffleArray(),
 
         // Array to track clicked elements
@@ -27,6 +28,7 @@ class ClickyGame extends Component {
         shake: false
     };
 
+    //Yay
     // Binds the current this context to checkClicked to have access to the current state when passed down to the Character component
     clickEvent = this.checkClicked.bind(this);
 
