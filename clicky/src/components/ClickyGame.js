@@ -29,6 +29,7 @@ class ClickyGame extends Component {
     };
 
     //Yay
+    // Why isnt this working
     // Binds the current this context to checkClicked to have access to the current state when passed down to the Character component
     clickEvent = this.checkClicked.bind(this);
 
